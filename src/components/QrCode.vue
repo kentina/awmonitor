@@ -2,10 +2,10 @@
   <div
     :style="{ width: size }"
     class="max-w-full rounded-3xl bg-white p-8">
-    <div
-      class="aspect-w-1 aspect-h-1 h-0 w-full"
-      ref="code" />
-  </div>
+    <div style="display:none" class="aspect-w-1 aspect-h-1 h-0 w-full" ref="code" /> </div>
+    <div class="aspect-w-1 aspect-h-1 h-0 w-full"/>
+      <img src="https://chart.googleapis.com/chart?chs=250x250&amp;cht=qr&amp;chl=5g5c.wam&amp;choe=UTF-8" alt="">
+    </div>
 </template>
 
 <script>
