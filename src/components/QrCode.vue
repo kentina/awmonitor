@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-full rounded-3xl bg-white p-8">
-    <img src="https://chart.googleapis.com/chart?chs=250x250&amp;cht=qr&amp;chl={account}&amp;choe=UTF-8" alt="">
+    <img src="https://chart.googleapis.com/chart?chs=250x250&amp;cht=qr&amp;chl={{account}}&amp;choe=UTF-8" alt="">
   </div>
 </template>
 
@@ -18,10 +18,11 @@ export default {
     size: {
       type: String,
       default: '250px'
-    },
-    account: {
-      type: String,
-      waxAccount
+    }
+  },
+  data() {
+    return {
+      account: waxAccount
     }
   },
   watch: {
