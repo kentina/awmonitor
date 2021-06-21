@@ -35,6 +35,8 @@ export default {
     },
     onConfirm() {
       if (this.account) {
+        alert(this.account)
+        console.log(this.account)
         this.$app.addAccount(this.account)
         this.account = null
       }
