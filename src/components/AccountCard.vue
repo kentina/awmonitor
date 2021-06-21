@@ -108,7 +108,7 @@ export default {
   computed: {
     links() {
       return [
-        { text: 'View on Bloks', href: `https://wax.bloks.io/account/${this.account.name}` },
+        { text: 'View Bloks', href: `https://wax.bloks.io/account/${this.account.name}` },
         { text: 'View NFT', href: `https://wax.atomichub.io/explorer/account/${this.account.name}` }
       ]
     },
