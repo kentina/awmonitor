@@ -8,7 +8,7 @@
         No monitored accounts
       </h3>
       <p class="block text-center text-gray-dark max-w-md">
-        You are not monitoring any accounts. Click the "Add Account" button to start monitoring.
+        Click "Add Account" button to start monitoring.
       </p>
     </div>
     <AddAccountButton>
