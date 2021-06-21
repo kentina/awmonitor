@@ -14,7 +14,7 @@
     @cancel="account = null">
     <FormInput
       v-model="account"
-      placeholder="account1.wam,1"
+      placeholder="account1.wam,account2.wam,account3.wam,..."
       @keyup.enter.native="onEnterKey" />
   </Dialog>
 </template>
@@ -35,9 +35,12 @@ export default {
     },
     onConfirm() {
       if (this.account) {
-        alert(this.account)
-        console.log(this.account)
-        this.$app.addAccount(this.account)
+        var accounts = this.account 
+        var arr = accounts.split(",")
+        for (var i = 0; i < arr.length; i++) {
+            //console.log(this.account)
+            this.$app.addAccount(accounts[i])
+        }        
         this.account = null
       }
     },
