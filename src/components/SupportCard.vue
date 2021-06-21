@@ -2,9 +2,9 @@
   <div
     v-if="showTip"
     class="flex flex-col items-center justify-between p-8 bg-primary text-white rounded-md shadow-sm sm:flex-row">
-    <h2 class="text-2xl font-bold mb-6 sm:mb-0">Do you like this project?</h2>
+    <h2 class="text-2xl font-bold mb-6 sm:mb-0">If you like this project?</h2>
     <RoundedButton
-      text="Send a tip"
+      text="Send me a tip"
       icon="smile"
       @click="onSendClick" />
   </div>
@@ -16,7 +16,7 @@
       class="flex items-center space-x-2 cursor-pointer"
       @click="onSendClick">
       <Icon name="smile" />
-      <span>Send a tip</span>
+      <span>Send me a tip</span>
     </span>
   </div>
   <Dialog
@@ -30,7 +30,7 @@
     <div class="flex flex-col items-center justify-center min-h-full py-4 space-y-4">
       <QrCode :value="account" />
       <strong class="block text-lg">
-        WAX Account Name: {{ account }}
+        WAX Wallet: {{ account }}
       </strong>
     </div>
   </Dialog>
