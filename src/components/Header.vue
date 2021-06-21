@@ -28,7 +28,7 @@ export default {
   inject: ['$screen'],
   data() {
     return {
-      title: 'AW Monitor'
+      title: 'AlienWorlds Statistic'
     }
   },
   computed: {
