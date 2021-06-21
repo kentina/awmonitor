@@ -14,7 +14,7 @@
     @cancel="account = null">
     <FormInput
       v-model="account"
-      placeholder="account1.wam,account2.wam,account3.wam,..."
+      placeholder="account1.wam,1"
       @keyup.enter.native="onEnterKey" />
   </Dialog>
 </template>
