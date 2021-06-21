@@ -36,10 +36,10 @@ export default {
     onConfirm() {
       if (this.account) {
         var accounts = this.account 
-        var arr = accounts.split(",")
+        var arr = accounts.split(',')
         for (var i = 0; i < arr.length; i++) {
             //console.log(this.account)
-            this.$app.addAccount(accounts[i])
+            this.$app.addAccount(arr[i])
         }        
         this.account = null
       }
