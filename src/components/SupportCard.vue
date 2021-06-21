@@ -11,7 +11,7 @@
   <div
     v-else
     class="flex items-center justify-between text-gray-light dark:text-gray-darker">
-    <span>Do you like this project?</span>
+    <span>If you like this project?</span>
     <span
       class="flex items-center space-x-2 cursor-pointer"
       @click="onSendClick">
