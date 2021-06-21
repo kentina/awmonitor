@@ -1,12 +1,12 @@
 <template>
   <footer class="border-t text-gray-dark dark:bg-black dark:border-gray-darkest">
-    <div class="flex items-center justify-between container py-4">
+    <div style="display: none" class="flex items-center justify-between container py-4">
       <a
         :href="githubURL"
         target="_blank"
         class="flex flex-nowrap items-center space-x-2">
         <Icon name="github" class="text-gray-light dark:text-gray-darker transform scale-125" />
-        <span class="text-sm">View on GitHub</span>
+        <span class="text-sm">View Me On GitHub</span>
       </a>
       <a
         href="https://vuejs.org"
